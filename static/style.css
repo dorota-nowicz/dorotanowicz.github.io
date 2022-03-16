@@ -1,0 +1,107 @@
+/* display background color grey on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #cecece;  
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/intro-bg.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #808080;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* about section text css */
+.text-about {
+    font-style: italic;
+    color: #504a4a;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color:#f8f5f5;
+}
+.servicesText:hover {
+    border: 1px solid #808080;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #808080;
+}
+.fab {
+    color: #ffffff;
+}
+/* footer styling */
+#footer {
+    background-color: #cecece; 
+    text-align: center;
+}
+
+
+/* project section */
+
+/* 1/ Make 2 columns with Bootstrap responsive classes for different screen sizes. */
+/* 2/ Use img-responsive class on images to adapt the img size to the content when resizing. */
+.row.row-no-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  
+  .col-no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* display background color grey on navbar  */
+.navbarGrey {
+    background-color: #cecece  !important;
+}
+
+/* custom space  */
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 30px!important;
+    margin-bottom: 40px!important;
+  }
+

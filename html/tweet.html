@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- csi to include html -->
+    <script src="../static/script/csi.js"></script>
+    <!-- header section-->
+    <div data-include="./header.html"></div> 
+</head>
+
+<body>
+        <!-- navbar -->
+        <div data-include="./navbar.html"></div>
+
+        <!-- project description-->
+        <div class="px-4 py-5 my-5 text-center">
+
+        <main role="main" class="container">
+            <div class="bg-light p-5 rounded">
+
+                <div class="row"> 
+                    <div class="col-sm">
+                        <h1 class="display-4 m-20">Tweet Sentiment Analysis</h1>
+                    </div>
+                   
+                </div>
+
+                <p class="lead">Determining a text document sentiment is becoming  an essential tool for both public and private companies, since it brings useful insights to find out the opinions of a general population
+                    on any topic.  Therefore, it is great support for decision-making processes. </p>
+                     
+                    <p class="lead"> Sentiment analysis has traditionally been approached as a classification task in which two major problems need to be addressed. 
+                         Firstly, the text should be transformed into a suitable representation. This is known as text modelling.  
+                         Secondly, the classification algorithm should be selected. 
+                         Thus, this project implements a Spanish Sentiment Analysis of Tweets starting with text transformations
+                          (lemmatization, derivation,  entity elimination, etc.), and tokenizers. Furthermore, resources such as the Affin 
+                          lexicon and the polarity dictionary for Spanish are used.</p>
+                    <p class="lead">
+                        <img class="thumbnail img-responsive" src="../static/images/portfolioTweet/portfolioTweet-1.png" >
+                        <img class="thumbnail img-responsive" src="../static/images/portfolioTweet/portfolioTweet-3.png" >
+                    </p>
+                    <p class="lead"> The experiments show that the tweets in Spanish can be classified according to the index (the positive value, negative, neutral and emotionless tweets)   achieving results comparable to the state of the art.
+                     Considering all implemented ML models, the SVM performs best and seems to be more suitable for this type of problem.</p>
+                     
+                     <p class="lead">  Counterintuitively, it is observed that the complexity of the techniques used in the preprocessing step does not correlate with the  final performance of the classifier.
+                    For example, a classifier that uses lemmatization, which is one of the preprocessing techniques that has the most complexity,  may not be one of the systems that has the better performance.</p>
+
+                <hr class="my-4">
+                <p>  This project forms a part of a curse given in Polytechnic University of Valencia.</p>
+                    
+                <p class="h1"> <a class="btn btn-secondary btn-lg" href="../index.html#portfolio" role="button">Go back</a> </p>
+              </div>
+        </main>
+
+        </div>
+        </div>
+
+        <!-- footer section-->
+        <div data-include="./footer.html"></div>
+</body>
+
+</html>

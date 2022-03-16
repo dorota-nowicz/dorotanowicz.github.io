@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- csi to include html -->
+    <script src="../static/script/csi.js"></script>
+    <!-- header section-->
+    <div data-include="./header.html"></div> 
+</head>
+
+<body>
+        <!-- navbar -->
+        <div data-include="./navbar.html"></div>
+
+        <!-- project description-->
+        <div class="px-4 py-5 my-5 text-center">
+
+        <main role="main" class="container">
+            <div class="bg-light p-5 rounded">
+
+                <div class="row"> 
+                    <div class="col-sm">
+                        <h1 class="display-4 m-20">NY Taxi Demand Forecast</h1>
+                    </div>
+                </div>
+
+                <p class="lead"> In this project ,the taxi demand in NYC by zones is predicted. The dataset is taken from the NYC government website and corresponds to 2020 and 2021 years.
+The Project passes through data pre-processing and analysis and then use some machine learning regression models like Linear Regression, Random Forest and Gradient Boosting. The dataset is splitted into train and test sets by TimeSeriesSplit() class from Scikit-learn.
+After analysing errors of each model, a model which returns the lowest Root Mean Squared Error (RMSE) is selected  and checked on the test data (data not seen during model fitting nor validation).
+Finally,  the short resume with a report example for stakeholders is generated.</p>
+
+                  
+                  <p class="lead"> Geospatial representation of Taxi demand forecast by zone</p>
+
+                  <div class="h1"> 
+                    <iframe src="../static/map/example_prediction.html" height="500", width ="800">
+                        Map
+                    </iframe>
+                  </div>
+
+              
+                <p class="h1">
+                  <a class="btn btn-secondary btn-lg" href="../index.html#portfolio" role="button">Go back</a>
+                </p>
+              </div>
+        </main>
+
+        </div>
+        </div>
+
+        <!-- footer section-->
+        <div data-include="./footer.html"></div>
+</body>
+
+</html>

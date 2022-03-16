@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- header section-->
+    <title>Portfolio Website-DN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- csi to include html -->
+    <script src="static/script/csi.js"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="static/style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">dn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+			
+				<div class="container">
+					<h2 class="hero_title">dn</h2>
+					<p class="hero_desc">Data and Civil Engineer</p>
+				</div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p><div class="text-about"> 
+                        
+                        <p> Data and civil engineer who combines passion for creation and innovation with knowledge on Python coding. Focused on building credibility and a positive image of the company. </p>
+                        
+                       
+                       <p>Currently working in Spain as a data/civil engineer at CPS Infraestructuras Movilidad y Medio Ambiente S.L. in the Department of Innovation and Technology</p>
+                        
+                    </i></div>
+        
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body"> 
+                            <i class="fas servicesIcon fa-light fa-microchip"></i> 
+                            <h4 class="card-title mt-3">Machine Learning</h4>
+                            <p class="card-text mt-3">Machine learning pipelines for wide range of regression and clasification problemas to get insights from data and make smart decisions.
+                            </p>
+                            <p>Technology Stack: Sklearn, PySpark, Scipy, NumPy, Pandas etc.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-brain'></i> 
+                            <h4 class="card-title mt-3">Deep Learning</h4>
+                            <p class="card-text mt-3">Implementing Deep Learning to provide fast and accurate forecast of the location of an object in an image.
+                            </p>
+                            <p>Technology Stack: YOLO, Darknet</p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-globe'></i>
+                            <h4 class="card-title mt-3">Geospatial Data Analytics</h4>
+                            <p class="card-text mt-3">
+                             Advanced knowladge of gathering, manipulating and displaing geographic information system (GIS). 
+                             <p>Technology Stack: ArGIS, ArcPy, QGIS, PostGIS, Leaflet.js, kepler.gl, Python labraries (shapely, Fiona, geoPandas, folium etc.)</p>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-light fa-laptop-code'></i> 
+                            <h4 class="card-title mt-3">Microservices</h4>
+                            <p class="card-text mt-3">Web application development based on microservices architecture.
+                                <p>Technology Stack: Python, Django/Django REST Framework, PostgreSQL, Docker, Swagger UI</p>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-chart-line'></i> 
+                            <h4 class="card-title mt-3">Dashbords</h4>
+                            <p class="card-text mt-3">Dashboard, board and scorecard design in form of a document that reflects, through a graphic representation, 
+                                the main metrics or KPIs involved in achieving the objectives of a company strategy. 
+                                <p>Technology Stack: Tableau, Qlik Sense, Shiny, Kepler.gl</p>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-network-wired'></i>  
+                            <h4 class="card-title mt-3">WebSite Design</h4>
+                            <p class="card-text mt-3">Website design and develpoment adapting innovative approaches, ideas and custom needs.
+                                <p>Front-end technology Stack: HTML, CSS, JavaScript, Bootstrap.</p>
+                                <p>Back-end technology Stack: Python, TypeScript</p>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="static/images/portfolioYolo.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YOLO Railway Signs Detection</h4>
+                            <p class="card-text">YOLO is an algorithm that implements neural networks to provide object detection from images, videos ore even real-time camara.</p>
+                            <div class="text-center">
+                                <a href="html/yolo.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioFlood.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Flood forecast </h4>
+                            <p class="card-text">Evaluation of various supervised machine learning algorithms and AutoML 
+							tools on the flood dataset is carried out</p>
+                            <div class="text-center">
+                                <a href="html/flood.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioMicroservices.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Microservices </h4>
+                            <p class="card-text">Development of several web applications to offer services focused on the management of 
+                                water supply and sewage treatment.</p>
+                            <div class="text-center">
+                                <a href="html/microservices.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioTaxi.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">NY Taxi Demand Forecast</h4>
+                            <p class="card-text">Prediction of the service demand by hour and zone inlcuding a simple report to understand the behavior to improve this public service. </p>
+                            <div class="text-center">
+                                <a href="html/taxi.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioSentiment.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title"> Tweet Sentiment Analysis</h4>
+                            <p class="card-text">Determining a text document sentiment is becoming  an essential tool for both public and private companies. </p>
+                            <div class="text-center">
+                                <a href="html/tweet.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioNosql.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Nosql databse design</h4>
+                            <p class="card-text"> NoSQL database design of a flight reservation system for a fake airline using two popular platforms: MongoDB and Neo4j.
+                            </p>
+
+                           <div class="text-center">
+                                <a href="html/nosql.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioBike.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Bike Demand Forecast</h4>
+                            <p class="card-text">A bike rental company has expanded bike stations in Valencia
+							and wants to know how the traffic will evolve in 
+							 the coming months.</p>
+                            <div class="text-center">
+                                <a href="html/bike.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioIoT.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">IoT with Photon</h4>
+                            <p class="card-text">Particle photon is a tiny  development kit with built-in Wi-Fi ideal for developing Internet of Things projects.
+                            </p>
+                            <div class="text-center">
+                                <a href="html/iot.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioTurbine.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Evaluating energy recovery potential</h4>
+                            <p class="card-text">Modelling and evaluating energy recovery potential in Murcia’s water supply system piping of Murcia</p>
+                            <div class="text-center">
+                                <a href="html/turbine.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<!--
+
+                   <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioVirus.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Virus Clasification using PySpark</h4>
+                            <p class="card-text">This project handle multi-clasification problem where virus type is dependent variable using classes from PySpark</p>
+                            <div class="text-center">
+                                <a href="html/virus.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+			<div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioNeurovias.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Neurovías Software</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="html/neurovias.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioGIS.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Custom ArcPy Tools</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="html/arcpy.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="static/images/portfolioAWS.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">AWS</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="html/aws.html" class="btn btn-secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="googlemaps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Valencia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embeddedmap-code" rel="nofollow" href="https://www.embed-map.com" id="injectmap-data">https://www.embed-map.com</a><style>#googlemaps-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control mt-3" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-secondary mt-3">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section-->
+    <div data-include="html/footer.html"></div>lude>
+
+    <!-- load javascript after loading all html content -->
+    <script src="static/script/script.js"></script>
+
+</body>
+
+</html>

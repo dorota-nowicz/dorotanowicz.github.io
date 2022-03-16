@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- csi to include html -->
+    <script src="../static/script/csi.js"></script>
+    <!-- header section-->
+    <div data-include="./header.html"></div> 
+</head>
+
+<body>
+        <!-- navbar -->
+        <div data-include="./navbar.html"></div>
+
+        <!-- project description-->
+        <div class="px-4 py-5 my-5 text-center">
+
+        <main role="main" class="container">
+            <div class="bg-light p-5 rounded">
+
+                <div class="row"> 
+                    <div class="col-sm">
+                        <h1 class="display-4 m-20">IoT with Photon</h1>
+                    </div>
+                </div>
+
+                <p class="lead">
+                    The objective of the laboratory was to introduce the student to the concept of the Internet of Things,
+                    through various practical exercises with real equipment and services. To do this, Particle's Photon commercial platform was released, 
+                    which provides hardware to integrate real-world “things”, and a
+                    cloud backend to connect with and manage these devices, and a web API for simple application development.
+                </p>
+                <p class="lead">
+                    The laboratory was divided into several sections that explore concepts of basic programming,
+                    integration of sensors and actuators, and communications.
+                </p>
+
+                <p class="lead">
+                    <img class="thumbnail img-responsive pl-20" src="../static/images/portfolioIot/portfolioIot-1.png" height="400" >
+                </p>
+                <p class="lead">
+                    The laboratory included among others:
+                </p>
+                <ul >
+
+                    <li class="lead"><b>SOS in Morse. </b> Realisation of a program that emits an SOS in Morse code through the RGB of the board.</li> 
+                    
+                    <li class="lead"> 
+                        <b> Twilight switch. </b>
+                        Twilight switch is an automatic control element for lighting, which activates the connected load when the lighting drops below a threshold. It can be used to turn on street lighting, garden lights or shop signs once the ambient lumen level drops below a minimum.
+                    </li> 
+
+                    <li class="lead"><b> Notification Centre. </b>
+                    In this project the Photon shows with a blinking colour in RGB receipt of a mail/tweet/post. The colour varies depending on the associated service. For example, having a blue flash for Facebook and a red flash for Gmail, and receiving notifications from both, the Photon flashes one colour and then the other. For this, the Particle functions are used as “action” in IFTTT.
+                    </li> 
+
+                    <li class="lead"> <b>  External Dashboard against Particle Cloud. </b>
+                    In this project the Photon reads the photoresistor and offers it to the Particle Cloud as a VARIABLE.
+                    Subsequently, on the freeboard.io website, a JSON-type “Datasource” is added and the Particle Cloud API call is made to obtain the value of the photoresistor. Finally, a dashboard of the available panels is created to show the photoresistor information.</li> 
+                </ul> 
+                    
+                <hr class="my-4">
+                <p>  This project forms a part of a curse given in Polytechnic University of Valencia.</p>
+                    
+                <p class="h1"> <a class="btn btn-secondary btn-lg" href="../index.html#portfolio" role="button">Go back</a> </p>
+              </div>
+        </main>
+
+        </div>
+        </div>
+
+        <!-- footer section-->
+        <div data-include="./footer.html"></div>
+</body>
+
+</html>

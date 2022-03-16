@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- csi to include html -->
+    <script src="../static/script/csi.js"></script>
+    <!-- header section-->
+    <div data-include="./header.html"></div> 
+</head>
+
+<body>
+        <!-- navbar -->
+        <div data-include="./navbar.html"></div>
+
+        <!-- project description-->
+        <div class="px-4 py-5 my-5 text-center">
+
+        <main role="main" class="container">
+            <div class="bg-light p-5 rounded">
+
+                <div class="row"> 
+                    <div class="col-sm">
+                        <h1 class="display-4 m-20">YOLO Based Approach for Railway Sign Detection</h1>
+                    </div>
+                   
+                </div>
+                <p class="lead">This time, my role was to automate Railway Sign Inventory generation. One of the most important tasks was to detect and classify signs from a huge number of videos. Therefore, I decided to take advantage of YOLO.</p>
+                
+                <hr class="my-4">
+                <p>YOLO (You only look once) is an algorithm that implements neural networks to provide object detection from images, videos or even real-time cameras. This algorithm is characterised by its precision and agility.</p>
+             
+                <p class="lead">In order to exploit YOLO power, good dataset preparation is required. Therefore, my first task was dataset preparation for almost 40 clases (40 different signs). This was painstaking work but really imprescindible. The model learns from what is feeded. </p >
+            
+                <p class="lead"> Finally, YOLO was set up with darknet, compiled with GPU and OPENCV enabled. In Figure below, you can see an example of detecting a railway sign from a test dataset (the dataset not seen by the model). </p>
+
+                <img class="thumbnail img-responsive" src="../static/images/portfolioYolo/portfolioYolo-1.jpg"  height="456">
+                    
+                <p class="h1">
+                  <a class="btn btn-secondary btn-lg" href="../index.html#portfolio" role="button">Go back</a>
+                </p>
+              </div>
+        </main>
+
+        </div>
+        </div>
+
+        <!-- footer section-->
+        <div data-include="./footer.html"></div>
+</body>
+
+</html>
